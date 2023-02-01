@@ -108,7 +108,7 @@ The model inference results are:
   ]
 }
 ```
-a trained Yolov7 model (or you can also use the official pretrained yolov7 models), they can be downloaded [here](https://drive.google.com/file/d/1jGDnZm5tZVmrl0ChNulhyVcpoRgOSMQp/view?usp=sharing).
+a trained Yolov7 mode can be downloaded from [here](https://drive.google.com/file/d/1jGDnZm5tZVmrl0ChNulhyVcpoRgOSMQp/view?usp=sharing).
 
 ## Run & Develop locally
 Run locally for dev, requirements mostly originate from [yolov7](https://github.com/WongKinYiu/yolov7/blob/main/requirements.txt):
