@@ -120,9 +120,8 @@ Run locally for dev, requirements mostly originate from [yolov7](https://github.
 
 ## Reference
 - https://github.com/WongKinYiu/yolov7
-
+- https://flask.palletsprojects.com/en/1.1.x
 
 ## Acknowledgment:
 This framework was rewritten from this repo:
-
 https://github.com/Michael-OvO/Yolov7-Flask/
