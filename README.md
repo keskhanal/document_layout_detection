@@ -1,5 +1,5 @@
 # Yolov7 document layout detection model deployment using flask
-This repo contains example apps for exposing the [yolo7](https://github.com/WongKinYiu/yolov7) object detection modelvia a [flask](https://flask.palletsprojects.com/en/1.1.x/) app.
+This repo contains example apps for exposing the [yolo7](https://github.com/WongKinYiu/yolov7) object detection model via a [flask](https://flask.palletsprojects.com/en/1.1.x/) app.
 
 ## Webapp:
 Simple app consisting of a form where you can upload an image, and see the inference result of the model in the browser. 
