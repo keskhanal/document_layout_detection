@@ -124,4 +124,5 @@ Run locally for dev, requirements mostly originate from [yolov7](https://github.
 
 ## Acknowledgment:
 This framework was rewritten from this repo:
+
 https://github.com/Michael-OvO/Yolov7-Flask/
