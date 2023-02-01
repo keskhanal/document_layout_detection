@@ -1,28 +1,34 @@
 # Yolov7 document layout detection model deployment using flask
-This repo contains example apps for exposing the [yolo7](https://github.com/WongKinYiu/yolov7) object detection modelvia a [flask](https://flask.palletsprojects.com/en/1.1.x/) api/app.
+This repo contains example apps for exposing the [yolo7](https://github.com/WongKinYiu/yolov7) object detection modelvia a [flask](https://flask.palletsprojects.com/en/1.1.x/) app.
 
 ## Web app
-Simple app consisting of a form where you can upload an image, and see the inference result of the model in the browser. Run:
+Simple app consisting of a form where you can upload an image, and see the inference result of the model in the browser. 
 
+Clone:
+`$git clone https://github.com/keskhanal/document_layout_detection.git`
+
+Run:
 `$ python app.py`
 
 then visit [http://localhost:5000/](http://localhost:5000/) in your browser:
 
+### Homepage:
 <p align="center">
 <img src="static/assets/result_form.jpg" width="450">
 </p>
 
+### Results:
 <p align="center">
 <img src="static/assets/result1.jpg" width="450">
 </p>
+
 <p align="center">
 <img src="static/assets/result2.jpg" width="450">
 </p>
 
 Processed images are saved in the `static` directory with a datetime for the filename.
 
-
-The model inference results are returned:
+The model inference results are:
 
 ```
 {
@@ -102,13 +108,14 @@ The model inference results are returned:
   ]
 }
 ```
+a trained Yolov7 model (or you can also use the official pretrained yolov7 models), they can be downloaded [here](https://drive.google.com/file/d/1jGDnZm5tZVmrl0ChNulhyVcpoRgOSMQp/view?usp=sharing).
 
 ## Run & Develop locally
 Run locally for dev, requirements mostly originate from [yolov7](https://github.com/WongKinYiu/yolov7/blob/main/requirements.txt):
 * `python3 -m venv venv`
 * `source venv/bin/activate`
 * `(venv) $ pip install -r requirements.txt`
-* `(venv) $ python3 app.py`
+* `(venv) $ python app.py`
 
 
 ## Reference
